@@ -120,14 +120,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/lib/libak09911c.so:system/lib/libak09911c.so
 
-# OpenGL
-PRODUCT_COPY_FILES += \
-    vendor/samsung/tabs-common/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so
-
-# RS
-PRODUCT_COPY_FILES += \
-    vendor/samsung/tabs-common/proprietary/vendor/lib/libmalicore.bc:system/vendor/lib/libmalicore.bc
-
 # MediaServer
 PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so
