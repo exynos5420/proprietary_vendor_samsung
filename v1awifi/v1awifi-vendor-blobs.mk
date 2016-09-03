@@ -150,11 +150,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/v1awifi/proprietary/vendor/firmware/bcm4335_V0105.0541.hcd:system/vendor/firmware/bcm4335_V0105.0541.hcd \
     vendor/samsung/v1awifi/proprietary/vendor/firmware/bcm4350_V0301.0591.hcd:system/vendor/firmware/bcm4350_V0301.0591.hcd
-
-# RS
-PRODUCT_COPY_FILES += \
-    vendor/samsung/v1awifi/proprietary/vendor/lib/libmalicore.bc:system/vendor/lib/libmalicore.bc \
-
-# OpenGL
-PRODUCT_COPY_FILES += \
-    vendor/samsung/v1awifi/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
