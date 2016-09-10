@@ -53,6 +53,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
     vendor/samsung/tabs-common/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin
 
+# Fingerprint
+PRODUCT_COPY_FILES += \
+    vendor/samsung/tabs-common/proprietary/bin/vcsFPService:system/bin/vcsFPService \
+    vendor/samsung/tabs-common/proprietary/lib/libfpasmtztransport.so:system/lib/libfpasmtztransport.so \
+    vendor/samsung/tabs-common/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
+    vendor/samsung/tabs-common/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
+    vendor/samsung/tabs-common/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
+    vendor/samsung/tabs-common/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so
+
+
 # Service for TZPR provisioning version check app
 PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/bin/scranton_RD:system/bin/scranton_RD
