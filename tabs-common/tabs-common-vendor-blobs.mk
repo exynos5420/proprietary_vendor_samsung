@@ -57,6 +57,15 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/bin/scranton_RD:system/bin/scranton_RD
 
+# Fingerprint
+PRODUCT_COPY_FILES += \
+    vendor/samsung/tabs-common/proprietary/bin/vcsFPService:system/bin/vcsFPService \
+    vendor/samsung/tabs-common/proprietary/lib/libfpasmtztransport.so:system/lib/libfpasmtztransport.so \
+    vendor/samsung/tabs-common/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
+    vendor/samsung/tabs-common/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
+    vendor/samsung/tabs-common/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
+    vendor/samsung/tabs-common/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so
+
 # WiFi - Firmware
 PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
@@ -120,14 +129,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/lib/libak09911c.so:system/lib/libak09911c.so
 
-# OpenGL
-PRODUCT_COPY_FILES += \
-    vendor/samsung/tabs-common/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so
-
-# RS
-PRODUCT_COPY_FILES += \
-    vendor/samsung/tabs-common/proprietary/vendor/lib/libmalicore.bc:system/vendor/lib/libmalicore.bc
-
 # MediaServer
 PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so
@@ -141,17 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin:system/vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin \
     vendor/samsung/tabs-common/proprietary/vendor/firmware/setfile_6b2_eeprom.bin:system/vendor/firmware/setfile_6b2_eeprom.bin \
     vendor/samsung/tabs-common/proprietary/vendor/firmware/setfile_imx134_eeprom.bin:system/vendor/firmware/setfile_imx134_eeprom.bin
-
-# Widevine From hammerhead MOB30M release
-PRODUCT_COPY_FILES += \
-    vendor/samsung/tabs-common/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
-    vendor/samsung/tabs-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/samsung/tabs-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/samsung/tabs-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
-    vendor/samsung/tabs-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/samsung/tabs-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/samsung/tabs-common/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
-    vendor/samsung/tabs-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
 # SSWAP
 PRODUCT_COPY_FILES += \
