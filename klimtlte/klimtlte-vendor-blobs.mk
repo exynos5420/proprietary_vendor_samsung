@@ -20,7 +20,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth firmware
 PRODUCT_COPY_FILES += \
-    vendor/samsung/klimtlte/proprietary/vendor/firmware/bcm4350_V0301.0609.hcd:system/vendor/firmware/bcm4350_V0301.0609.hcd
+    vendor/samsung/klimtlte/proprietary/vendor/firmware/bcm4350_V0375.0793.hcd:system/vendor/firmware/bcm4350_V0375.0793.hcd
 
 # Sensors
 PRODUCT_COPY_FILES += \
@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/samsung/klimtlte/proprietary/bin/gpsd:system/bin/gpsd \
-    vendor/samsung/klimtlte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
     vendor/samsung/klimtlte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so
 
 # Camera
