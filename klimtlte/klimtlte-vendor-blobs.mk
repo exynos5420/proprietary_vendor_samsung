@@ -35,7 +35,3 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_COPY_FILES += \
     vendor/samsung/klimtlte/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.universal5420.so
-
-# MediaDRM
-PRODUCT_COPY_FILES += \
-    vendor/samsung/klimtlte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
