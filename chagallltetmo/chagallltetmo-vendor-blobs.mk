@@ -40,7 +40,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/chagallltetmo/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/chagallltetmo/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
     vendor/samsung/chagallltetmo/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so
-
-# MediaDRM
-PRODUCT_COPY_FILES += \
-    vendor/samsung/chagallltetmo/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so

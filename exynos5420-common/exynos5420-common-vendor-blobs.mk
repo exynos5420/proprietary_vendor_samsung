@@ -21,3 +21,14 @@ PRODUCT_COPY_FILES += \
 # RS - T6XX R7P0 GPU Driver
 PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/vendor/lib/libmalicore.bc:system/vendor/lib/libmalicore.bc
+
+# Widevine From hammerhead MOB30M release
+PRODUCT_COPY_FILES += \
+    vendor/samsung/exynos5420-common/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
+    vendor/samsung/exynos5420-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/samsung/exynos5420-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/samsung/exynos5420-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/samsung/exynos5420-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/samsung/exynos5420-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/samsung/exynos5420-common/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
+    vendor/samsung/exynos5420-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so

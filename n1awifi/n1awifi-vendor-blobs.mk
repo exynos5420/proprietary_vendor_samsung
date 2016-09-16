@@ -50,7 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/n1awifi/proprietary/etc/wifi/cred.conf.txt:system/etc/wifi/cred.conf.txt \
     vendor/samsung/n1awifi/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/n1awifi/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    vendor/samsung/n1awifi/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/n1awifi/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
     vendor/samsung/n1awifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/n1awifi/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so \
@@ -61,11 +60,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/n1awifi/proprietary/lib/libarcsoft_picaction.so:system/lib/libarcsoft_picaction.so \
     vendor/samsung/n1awifi/proprietary/lib/libarcsoft_selfie_camera_lite.so:system/lib/libarcsoft_selfie_camera_lite.so \
     vendor/samsung/n1awifi/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
-    vendor/samsung/n1awifi/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/n1awifi/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/n1awifi/proprietary/lib/libmor.so:system/lib/libmor.so \
     vendor/samsung/n1awifi/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
-    vendor/samsung/n1awifi/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/samsung/n1awifi/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/n1awifi/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/samsung/n1awifi/proprietary/lib/libvdis.so:system/lib/libvdis.so \
@@ -77,7 +74,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/n1awifi/proprietary/vendor/firmware/srp_cga.bin:system/vendor/firmware/srp_cga.bin \
     vendor/samsung/n1awifi/proprietary/vendor/firmware/srp_data.bin:system/vendor/firmware/srp_data.bin \
     vendor/samsung/n1awifi/proprietary/vendor/firmware/srp_vliw.bin:system/vendor/firmware/srp_vliw.bin \
-    vendor/samsung/n1awifi/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/samsung/n1awifi/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/samsung/n1awifi/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/samsung/n1awifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
