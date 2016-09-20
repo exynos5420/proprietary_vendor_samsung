@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-#      http://www.apache.org/licenses/LICENSE-2.0
+# http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -34,8 +34,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/n2awifi/proprietary/app/mcRegistry/ffffffff00000000000000000000000f.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000f.tlbin \
     vendor/samsung/n2awifi/proprietary/app/mcRegistry/ffffffff000000000000000000000010.tlbin:system/app/mcRegistry/ffffffff000000000000000000000010.tlbin \
     vendor/samsung/n2awifi/proprietary/app/mcRegistry/ffffffff000000000000000000000011.tlbin:system/app/mcRegistry/ffffffff000000000000000000000011.tlbin \
+    vendor/samsung/n2awifi/proprietary/app/mcRegistry/ffffffff000000000000000000000017.tlbin:system/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
     vendor/samsung/n2awifi/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
-    vendor/samsung/n2awifi/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin
+    vendor/samsung/n2awifi/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
+    vendor/samsung/n2awifi/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin 
 
 # Service for TZPR provisioning version check app
 PRODUCT_COPY_FILES += \
@@ -44,39 +46,29 @@ PRODUCT_COPY_FILES += \
 # WiFi - Firmware
 PRODUCT_COPY_FILES += \
     vendor/samsung/n2awifi/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
+    vendor/samsung/n2awifi/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
     vendor/samsung/n2awifi/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     vendor/samsung/n2awifi/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
-    vendor/samsung/n2awifi/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
-    vendor/samsung/n2awifi/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
+    vendor/samsung/n2awifi/proprietary/etc/wifi/cred.conf.txt:system/etc/wifi/cred.conf.txt \
     vendor/samsung/n2awifi/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/n2awifi/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
 
 # Camera - arcsoft
 PRODUCT_COPY_FILES += \
-    vendor/samsung/n2awifi/proprietary/lib/libarcsoft_flawlessface2.so:system/lib/libarcsoft_flawlessface2.so \
-    vendor/samsung/n2awifi/proprietary/lib/libarcsoft_magicshot_bestface.so:system/lib/libarcsoft_magicshot_bestface.so \
-    vendor/samsung/n2awifi/proprietary/lib/libarcsoft_magicshot_bestphoto.so:system/lib/libarcsoft_magicshot_bestphoto.so \
-    vendor/samsung/n2awifi/proprietary/lib/libarcsoft_magicshot_common.so:system/lib/libarcsoft_magicshot_common.so \
-    vendor/samsung/n2awifi/proprietary/lib/libarcsoft_magicshot_drama.so:system/lib/libarcsoft_magicshot_drama.so \
-    vendor/samsung/n2awifi/proprietary/lib/libarcsoft_magicshot_eraser.so:system/lib/libarcsoft_magicshot_eraser.so \
-    vendor/samsung/n2awifi/proprietary/lib/libarcsoft_magicshot_picmotion.so:system/lib/libarcsoft_magicshot_picmotion.so \
     vendor/samsung/n2awifi/proprietary/lib/libarcsoft_night_shot_ex.so:system/lib/libarcsoft_night_shot_ex.so \
     vendor/samsung/n2awifi/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
+    vendor/samsung/n2awifi/proprietary/lib/libarcsoft_picaction_manual.so:system/lib/libarcsoft_picaction_manual.so \
     vendor/samsung/n2awifi/proprietary/lib/libarcsoft_picaction.so:system/lib/libarcsoft_picaction.so \
-    vendor/samsung/n2awifi/proprietary/lib/libarcsoft_picmotion.so:system/lib/libarcsoft_picmotion.so \
-    vendor/samsung/n2awifi/proprietary/lib/libarcsoft_preprocessor.so:system/lib/libarcsoft_preprocessor.so \
-    vendor/samsung/n2awifi/proprietary/lib/libarcsoft_readengine.so:system/lib/libarcsoft_readengine.so \
-    vendor/samsung/n2awifi/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
-    vendor/samsung/n2awifi/proprietary/lib/libarcsoft_vdoinvideo.so:system/lib/libarcsoft_vdoinvideo.so
+    vendor/samsung/n2awifi/proprietary/lib/libarcsoft_selfie_camera_lite.so:system/lib/libarcsoft_selfie_camera_lite.so \
+    vendor/samsung/n2awifi/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so
 
 # Camera
 PRODUCT_COPY_FILES += \
+    vendor/samsung/n2awifi/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
     vendor/samsung/n2awifi/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-    vendor/samsung/n2awifi/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
-    vendor/samsung/n2awifi/proprietary/lib/libvdis.so:system/lib/libvdis.so \
-    vendor/samsung/n2awifi/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.universal5420.so \
-    vendor/samsung/n2awifi/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
-    vendor/samsung/n2awifi/proprietary/lib/libmor.so:system/lib/libmor.so
+    vendor/samsung/n2awifi/proprietary/lib/libmor.so:system/lib/libmor.so \
+    vendor/samsung/n2awifi/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
+    vendor/samsung/n2awifi/proprietary/lib/libvdis.so:system/lib/libvdis.so
 
 # Common
 PRODUCT_COPY_FILES += \
@@ -88,13 +80,18 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
-    vendor/samsung/n2awifi/proprietary/bin/gpsd:system/vendor/bin/gpsd \
-    vendor/samsung/n2awifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so
+    vendor/samsung/n2awifi/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/n2awifi/proprietary/etc/gps.conf.txt:system/etc/gps.conf.txt \
+    vendor/samsung/n2awifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/samsung/n2awifi/proprietary/etc/gps.xml:system/etc/gps.xml
 
 # Sensors
 PRODUCT_COPY_FILES += \
+    vendor/samsung/n2awifi/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so \
     vendor/samsung/n2awifi/proprietary/lib/libak8963c.so:system/lib/libak8963c.so \
-    vendor/samsung/n2awifi/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so
+    vendor/samsung/n2awifi/proprietary/etc/PARAM.ini.txt:system/etc/PARAM.ini.txt \
+    vendor/samsung/n2awifi/proprietary/etc/PDC.ini.txt:system/etc/PDC.ini.txt \
+    vendor/samsung/n2awifi/proprietary/etc/srm.bin:system/etc/srm.bin
 
 # SRP Audio driver for Samsung Exynos firmware
 PRODUCT_COPY_FILES += \
@@ -104,11 +101,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
-    vendor/samsung/n2awifi/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
-    vendor/samsung/n2awifi/proprietary/vendor/firmware/bcm4335_A0.hcd:system/vendor/firmware/bcm4335_A0.hcd \
-    vendor/samsung/n2awifi/proprietary/vendor/firmware/bcm4335_murata.hcd:system/vendor/firmware/bcm4335_murata.hcd \
-    vendor/samsung/n2awifi/proprietary/vendor/firmware/bcm4335_semco.hcd:system/vendor/firmware/bcm4335_semco.hcd \
-    vendor/samsung/n2awifi/proprietary/vendor/firmware/BT_FW_VER_BCM4339_003.001.009.0031.0136_ORC_N1-3G.hcd:system/vendor/firmware/BT_FW_VER_BCM4339_003.001.009.0031.0136_ORC_N1-3G.hcd
+    vendor/samsung/n2awifi/proprietary/vendor/firmware/bcm4335_V0105.0552.hcd:system/vendor/firmware/bcm4335_V0105.0552.hcd
 
 # Samsung Exynos5 SoC series FIMC-IS driver firmware
 PRODUCT_COPY_FILES += \
