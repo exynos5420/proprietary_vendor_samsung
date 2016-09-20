@@ -35,11 +35,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/n2awifi/proprietary/app/mcRegistry/ffffffff000000000000000000000010.tlbin:system/app/mcRegistry/ffffffff000000000000000000000010.tlbin \
     vendor/samsung/n2awifi/proprietary/app/mcRegistry/ffffffff000000000000000000000011.tlbin:system/app/mcRegistry/ffffffff000000000000000000000011.tlbin \
     vendor/samsung/n2awifi/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
-    vendor/samsung/n2awifi/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin 
+    vendor/samsung/n2awifi/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin
 
 # Service for TZPR provisioning version check app
 PRODUCT_COPY_FILES += \
-    vendor/samsung/n2awifi/proprietary/bin/scranton_RD:system/bin/scranton_RD 
+    vendor/samsung/n2awifi/proprietary/bin/scranton_RD:system/bin/scranton_RD
 
 # WiFi - Firmware
 PRODUCT_COPY_FILES += \
@@ -89,8 +89,6 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/samsung/n2awifi/proprietary/bin/gpsd:system/vendor/bin/gpsd \
-    vendor/samsung/n2awifi/proprietary/etc/gps.conf:system/vendor/etc/gps.conf \
-    vendor/samsung/n2awifi/proprietary/etc/gps.xml:system/vendor/etc/gps.xml \
     vendor/samsung/n2awifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so
 
 # Sensors
@@ -121,8 +119,3 @@ PRODUCT_COPY_FILES += \
 # Samsung S5P Multi Format Codec V5/V6 firmware
 PRODUCT_COPY_FILES += \
     vendor/samsung/n2awifi/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin
-
-# Keylayouts
-PRODUCT_COPY_FILES += \
-    vendor/samsung/n2awifi/proprietary/usr/idc/Synaptics_HID_TouchPad.idc:system/usr/idc/Synaptics_HID_TouchPad.idc \
-    vendor/samsung/n2awifi/proprietary/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
