@@ -96,7 +96,8 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
   vendor/samsung/ha3g/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
   vendor/samsung/ha3g/proprietary/lib/libvdis.so:system/lib/libvdis.so \
-  vendor/samsung/ha3g/proprietary/lib/libliveframework.so:system/lib/libliveframework.so
+  vendor/samsung/ha3g/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
+  vendor/samsung/ha3g/proprietary/lib/libmor.so:system/lib/libmor.so
 
 # Prebuilt Audio because of the Yamaha chip I HATE THIS
 PRODUCT_COPY_FILES += \
