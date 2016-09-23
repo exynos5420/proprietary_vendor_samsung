@@ -93,7 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/v1awifi/proprietary/lib/libarcsoft_skin_soften.so:system/lib/libarcsoft_skin_soften.so
 
 
-#Noise Suppression
 # Noise suppression
 PRODUCT_COPY_FILES += \
     vendor/samsung/v1awifi/proprietary/vendor/lib/liblvverx_3.20.03.so:system/vendor/lib/liblvverx_3.20.03.so \
@@ -146,7 +145,7 @@ PRODUCT_COPY_FILES += \
 # Sound effects See if you have the commented out file on stock if so add it
 PRODUCT_COPY_FILES += \
     vendor/samsung/v1awifi/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
-#    vendor/samsung/v1awifi/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
+    vendor/samsung/v1awifi/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
     vendor/samsung/v1awifi/proprietary/lib/lib_SA_GoogleFX_ver119k.so:system/lib/lib_SA_GoogleFX_ver119k.so \
     vendor/samsung/v1awifi/proprietary/lib/lib_SoundAlive_play_vol_ver125e.so:system/lib/lib_SoundAlive_play_vol_ver125e.so
 
