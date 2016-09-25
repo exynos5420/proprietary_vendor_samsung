@@ -355,6 +355,10 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/vendor/firmware/bcm2079xB5_firmware.ncd:system/vendor/firmware/bcm2079xB5_firmware.ncd \
   vendor/samsung/ha3g/proprietary/vendor/firmware/bcm2079xB5_pre_firmware.ncd:system/vendor/firmware/bcm2079xB5_pre_firmware.ncd
 
+# Prebuilt Shim
+PRODUCT_COPY_FILES += \
+  vendor/samsung/ha3g/proprietary/lib/libsamsung_symbols.so:system/lib/libsamsung_symbols.so
+
 # Randoms
 PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
