@@ -46,6 +46,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/bin/scranton_RD:system/bin/scranton_RD
 
+# Prebuilt Surface Flinger from Safarend's last cm-13.0 build
+PRODUCT_COPY_FILES += \
+  vendor/samsung/ha3g/proprietary/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so
+
 # RIL
 PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
