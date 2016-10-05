@@ -77,8 +77,6 @@ PRODUCT_COPY_FILES += \
 
 # Camera - arcsoft
 PRODUCT_COPY_FILES += \
-  vendor/samsung/ha3g/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
-  vendor/samsung/ha3g/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
   vendor/samsung/ha3g/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
   vendor/samsung/ha3g/proprietary/lib/libarcsoft_picaction.so:system/lib/libarcsoft_picaction.so \
   vendor/samsung/ha3g/proprietary/lib/libarcsoft_picaction_manual.so:system/lib/libarcsoft_picaction_manual.so \
@@ -100,7 +98,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
   vendor/samsung/ha3g/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
   vendor/samsung/ha3g/proprietary/lib/libvdis.so:system/lib/libvdis.so \
-  vendor/samsung/ha3g/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
   vendor/samsung/ha3g/proprietary/lib/libmor.so:system/lib/libmor.so
 
 # Prebuilt Audio because of the Yamaha chip I HATE THIS
@@ -238,7 +235,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
   vendor/samsung/ha3g/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
   vendor/samsung/ha3g/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
-  vendor/samsung/ha3g/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
   vendor/samsung/ha3g/proprietary/lib/libsomx263dsw.so:system/lib/libsomx263dsw.so \
   vendor/samsung/ha3g/proprietary/lib/libsomx264dsw.so:system/lib/libsomx264dsw.so \
   vendor/samsung/ha3g/proprietary/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
