@@ -81,7 +81,7 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/samsung/n1awifi/proprietary/bin/gpsd:system/bin/gpsd \
-    vendor/samsung/n1awifi/proprietary/etc/gps.conf.txt:system/etc/gps.conf.txt \
+    vendor/samsung/n1awifi/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/n1awifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/n1awifi/proprietary/etc/gps.xml:system/etc/gps.xml
 
