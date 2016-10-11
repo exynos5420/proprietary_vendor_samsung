@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/samsung/klimt-common/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/klimt-common/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
     vendor/samsung/klimt-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so
 
 # Camera
