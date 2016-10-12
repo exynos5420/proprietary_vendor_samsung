@@ -16,6 +16,7 @@
 
 # RIL
 PRODUCT_COPY_FILES += \
+    vendor/samsung/klimtlte/proprietary/bin/cbd:system/bin/cbd \
     vendor/samsung/klimtlte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
 
 # Sensors
