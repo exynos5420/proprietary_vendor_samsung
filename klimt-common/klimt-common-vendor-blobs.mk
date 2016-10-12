@@ -27,3 +27,7 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_COPY_FILES += \
     vendor/samsung/klimt-common/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.universal5420.so
+
+# Sensors
+PRODUCT_COPY_FILES += \
+    vendor/samsung/klimt-common/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so
