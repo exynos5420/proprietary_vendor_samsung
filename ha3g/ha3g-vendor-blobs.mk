@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_COPY_FILES += \
+  vendor/samsung/ha3g/proprietary/bin/cbd:system/bin/cbd \
   vendor/samsung/ha3g/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
   vendor/samsung/ha3g/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
 
