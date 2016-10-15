@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_COPY_FILES += \
+  vendor/samsung/ha3g/proprietary/bin/cbd:system/bin/cbd \
   vendor/samsung/ha3g/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
   vendor/samsung/ha3g/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
 
@@ -107,7 +108,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
   vendor/samsung/ha3g/proprietary/lib/lib_Samsung_AudioZoom_v102.so:system/lib/lib_Samsung_AudioZoom_v102.so \
   vendor/samsung/ha3g/proprietary/lib/lib_SoundBooster_ver402.so:system/lib/lib_SoundBooster_ver402.so \
-  vendor/samsung/ha3g/proprietary/lib/libmysound.so:system/lib/libmysound.so \
   vendor/samsung/ha3g/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf
 
 # Samsung Sound effects I HATE THIS
