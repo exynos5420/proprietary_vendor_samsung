@@ -18,23 +18,6 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/chagallwifi/proprietary/vendor/firmware/bcm4350_V0301.0601.hcd:system/vendor/firmware/bcm4350_V0301.0601.hcd
 
-# WiFi - Firmware
-PRODUCT_COPY_FILES += \
-    vendor/samsung/chagallwifi/proprietary/etc/wifi/nvram_mfg.txt_4354_a0:system/etc/wifi/nvram_mfg.txt_4354_a0 \
-    vendor/samsung/chagallwifi/proprietary/etc/wifi/nvram_mfg.txt_4354_a1:system/etc/wifi/nvram_mfg.txt_4354_a1 \
-    vendor/samsung/chagallwifi/proprietary/etc/wifi/nvram_net.txt_4354_a0:system/etc/wifi/nvram_net.txt_4354_a0 \
-    vendor/samsung/chagallwifi/proprietary/etc/wifi/nvram_net.txt_4354_a1:system/etc/wifi/nvram_net.txt_4354_a1
-
 # Sensors
 PRODUCT_COPY_FILES += \
     vendor/samsung/chagallwifi/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so
-
-# Camera
-PRODUCT_COPY_FILES += \
-    vendor/samsung/chagalllte/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.vendor.universal5420.so
-
-# GPS
-PRODUCT_COPY_FILES += \
-    vendor/samsung/chagallwifi/proprietary/bin/gpsd:system/bin/gpsd \
-    vendor/samsung/chagallwifi/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
-    vendor/samsung/chagallwifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so

@@ -12,12 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Include tabs-common repo
-$(call inherit-product-if-exists, vendor/samsung/tabs-common/tabs-common-vendor.mk)
--include vendor/samsung/tabs-common/BoardConfigVendor.mk
-
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/samsung/chagallwifi/overlay
 
 $(call inherit-product, vendor/samsung/chagallwifi/chagallwifi-vendor-blobs.mk)
 
+# Include chagall-common repo
+$(call inherit-product-if-exists, vendor/samsung/chagall-common/chagall-common-vendor.mk)
+-include vendor/samsung/chagall-common/BoardConfigVendor.mk
