@@ -33,7 +33,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_COPY_FILES += \
-    vendor/samsung/chagallltetmo/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.universal5420.so
+    vendor/samsung/chagallltetmo/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.vendor.universal5420.so
 
 # GPS
 PRODUCT_COPY_FILES += \
