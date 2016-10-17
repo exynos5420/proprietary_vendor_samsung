@@ -75,15 +75,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
   vendor/samsung/ha3g/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so
 
-# Camera - arcsoft
-PRODUCT_COPY_FILES += \
-  vendor/samsung/ha3g/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
-  vendor/samsung/ha3g/proprietary/lib/libarcsoft_picaction.so:system/lib/libarcsoft_picaction.so \
-  vendor/samsung/ha3g/proprietary/lib/libarcsoft_picaction_manual.so:system/lib/libarcsoft_picaction_manual.so \
-  vendor/samsung/ha3g/proprietary/lib/libarcsoft_selfie_camera_lite.so:system/lib/libarcsoft_selfie_camera_lite.so \
-  vendor/samsung/ha3g/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
-  vendor/samsung/ha3g/proprietary/lib/libarcsoft_vdoinvideo.so:system/lib/libarcsoft_vdoinvideo.so
-
 # Common
 PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so
@@ -95,10 +86,8 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
-  vendor/samsung/ha3g/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
   vendor/samsung/ha3g/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-  vendor/samsung/ha3g/proprietary/lib/libvdis.so:system/lib/libvdis.so \
-  vendor/samsung/ha3g/proprietary/lib/libmor.so:system/lib/libmor.so
+  vendor/samsung/ha3g/proprietary/lib/libvdis.so:system/lib/libvdis.so 
 
 # Prebuilt Audio because of the Yamaha chip I HATE THIS
 PRODUCT_COPY_FILES += \
