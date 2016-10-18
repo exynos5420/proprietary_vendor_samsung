@@ -131,6 +131,7 @@ PRODUCT_COPY_FILES += \
 
 # MediaServer
 PRODUCT_COPY_FILES += \
+    vendor/samsung/n1awifi/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/tabs-common/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so
 
 # Samsung S5P Multi Format Codec V5/V6 firmware

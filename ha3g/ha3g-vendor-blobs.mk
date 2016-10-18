@@ -81,6 +81,7 @@ PRODUCT_COPY_FILES += \
 
 # MediaServer
 PRODUCT_COPY_FILES += \
+  vendor/samsung/ha3g/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
   vendor/samsung/ha3g/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so
 
 # Camera
@@ -350,5 +351,4 @@ PRODUCT_COPY_FILES += \
 
 # Randoms
 PRODUCT_COPY_FILES += \
-  vendor/samsung/ha3g/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
   vendor/samsung/ha3g/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so

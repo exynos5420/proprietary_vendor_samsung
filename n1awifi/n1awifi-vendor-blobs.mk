@@ -67,7 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/n1awifi/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
     vendor/samsung/n1awifi/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/n1awifi/proprietary/lib/libmor.so:system/lib/libmor.so \
-    vendor/samsung/n1awifi/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/n1awifi/proprietary/lib/libvdis.so:system/lib/libvdis.so
 
 # Common
@@ -76,6 +75,7 @@ PRODUCT_COPY_FILES += \
 
 # MediaServer
 PRODUCT_COPY_FILES += \
+    vendor/samsung/n1awifi/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/n1awifi/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so
 
 # GPS
