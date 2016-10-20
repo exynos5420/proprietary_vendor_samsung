@@ -76,49 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/tabs-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
 
-# Camera
-PRODUCT_COPY_FILES += \
-    vendor/samsung/tabs-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-    vendor/samsung/tabs-common/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
-    vendor/samsung/tabs-common/proprietary/lib/libvdis.so:system/lib/libvdis.so \
-    vendor/samsung/tabs-common/proprietary/lib/libmor.so:system/lib/libmor.so
-    
-# Camera - arcsoft
-PRODUCT_COPY_FILES += \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_flawlessface2.so:system/lib/libarcsoft_flawlessface2.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_magicshot_bestface.so:system/lib/libarcsoft_magicshot_bestface.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_magicshot_bestphoto.so:system/lib/libarcsoft_magicshot_bestphoto.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_magicshot_common.so:system/lib/libarcsoft_magicshot_common.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_magicshot_drama.so:system/lib/libarcsoft_magicshot_drama.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_magicshot_eraser.so:system/lib/libarcsoft_magicshot_eraser.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_magicshot_picmotion.so:system/lib/libarcsoft_magicshot_picmotion.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_night_shot_ex.so:system/lib/libarcsoft_night_shot_ex.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_picaction.so:system/lib/libarcsoft_picaction.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_picmotion.so:system/lib/libarcsoft_picmotion.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_preprocessor.so:system/lib/libarcsoft_preprocessor.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_readengine.so:system/lib/libarcsoft_readengine.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_vdoinvideo.so:system/lib/libarcsoft_vdoinvideo.so
-
-# Camera - arcsoft
-PRODUCT_COPY_FILES += \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_flawlessface2.so:system/lib/libarcsoft_flawlessface2.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_magicshot_bestface.so:system/lib/libarcsoft_magicshot_bestface.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_magicshot_bestphoto.so:system/lib/libarcsoft_magicshot_bestphoto.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_magicshot_common.so:system/lib/libarcsoft_magicshot_common.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_magicshot_drama.so:system/lib/libarcsoft_magicshot_drama.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_magicshot_eraser.so:system/lib/libarcsoft_magicshot_eraser.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_magicshot_picmotion.so:system/lib/libarcsoft_magicshot_picmotion.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_night_shot_ex.so:system/lib/libarcsoft_night_shot_ex.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_picaction.so:system/lib/libarcsoft_picaction.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_picmotion.so:system/lib/libarcsoft_picmotion.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_preprocessor.so:system/lib/libarcsoft_preprocessor.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_readengine.so:system/lib/libarcsoft_readengine.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
-    vendor/samsung/tabs-common/proprietary/lib/libarcsoft_vdoinvideo.so:system/lib/libarcsoft_vdoinvideo.so
-
 # SRP Audio driver for Samsung Exynos firmware
 PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/vendor/firmware/srp_cga.bin:system/vendor/firmware/srp_cga.bin \
