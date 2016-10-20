@@ -76,12 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/tabs-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
 
-# Camera
-PRODUCT_COPY_FILES += \
-    vendor/samsung/tabs-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-    vendor/samsung/tabs-common/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
-    vendor/samsung/tabs-common/proprietary/lib/libvdis.so:system/lib/libvdis.so 
-
 # SRP Audio driver for Samsung Exynos firmware
 PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/vendor/firmware/srp_cga.bin:system/vendor/firmware/srp_cga.bin \
