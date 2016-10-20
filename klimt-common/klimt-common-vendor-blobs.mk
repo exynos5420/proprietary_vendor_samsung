@@ -24,10 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimt-common/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
     vendor/samsung/klimt-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so
 
-# Camera
-PRODUCT_COPY_FILES += \
-    vendor/samsung/klimt-common/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.vendor.universal5420.so
-
 # Noise suppression
 PRODUCT_COPY_FILES += \
     vendor/samsung/klimt-common/proprietary/vendor/etc/nxp/LVVEFS_Rx_Configuration.txt:system/vendor/etc/nxp/LVVEFS_Rx_Configuration.txt \
