@@ -84,12 +84,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
   vendor/samsung/ha3g/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so
 
-# Camera
-PRODUCT_COPY_FILES += \
-  vendor/samsung/ha3g/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
-  vendor/samsung/ha3g/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-  vendor/samsung/ha3g/proprietary/lib/libvdis.so:system/lib/libvdis.so 
-
 # Prebuilt Audio because of the Yamaha chip I HATE THIS
 PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/hw/audio_policy.universal5420.so:system/lib/hw/audio_policy.universal5420.so \
