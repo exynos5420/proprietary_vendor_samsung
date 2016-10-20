@@ -22,3 +22,6 @@ $(call inherit-product, vendor/samsung/klimt-common/klimt-common-vendor-blobs.mk
 # Include tabs-common repo
 $(call inherit-product, vendor/samsung/tabs-common/tabs-common-vendor.mk)
 -include vendor/samsung/tabs-common/BoardConfigVendor.mk
+
+# Include portrait camera blobs
+$(call inherit-product, vendor/samsung/exynos5420-common/exynos5420-common-camera-port-blobs.mk)
