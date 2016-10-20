@@ -22,3 +22,10 @@ $(call inherit-product, vendor/samsung/chagall-common/chagall-common-vendor-blob
 # Include tabs-common repo
 $(call inherit-product, vendor/samsung/tabs-common/tabs-common-vendor.mk)
 -include vendor/samsung/tabs-common/BoardConfigVendor.mk
+
+# Include Landscape camera blobs
+<<<<<<< HEAD
+$(call inherit-product, vendor/samsung/exynos5420-common/exynos5420-common-land-vendor.mk)
+=======
+$(call inherit-product, vendor/samsung/exynos5420-common/exynos5420-common-camera-land-blobs.mk)
+>>>>>>> f29a024... Commonize camera blobs from T805XXU1CPH5/T705XXU1ANF8

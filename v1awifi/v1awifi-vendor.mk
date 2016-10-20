@@ -19,3 +19,10 @@ DEVICE_PACKAGE_OVERLAYS := vendor/samsung/v1awifi/overlay
 
 $(call inherit-product, vendor/samsung/v1awifi/v1awifi-vendor-blobs.mk)
 $(call inherit-product, vendor/samsung/exynos5420-common/exynos5420-common-vendor.mk)
+
+# Include landscape camera blobs
+<<<<<<< HEAD
+$(call inherit-product, vendor/samsung/exynos5420-common/exynos5420-common-land-vendor.mk)
+=======
+$(call inherit-product, vendor/samsung/exynos5420-common/exynos5420-common-camera-land-blobs.mk)
+>>>>>>> f29a024... Commonize camera blobs from T805XXU1CPH5/T705XXU1ANF8
