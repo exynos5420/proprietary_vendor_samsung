@@ -81,18 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/v2awifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/v2awifi/proprietary/bin/gpsd:system/bin/gpsd
 
-# Camera - arcsoft YOU ARE MISSING SOME CHECK STOCK
-PRODUCT_COPY_FILES += \
-    vendor/samsung/v2awifi/proprietary/lib/libarcsoft_flawlessface.so:system/lib/libarcsoft_flawlessface.so \
-    vendor/samsung/v2awifi/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
-    vendor/samsung/v2awifi/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
-    vendor/samsung/v2awifi/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
-    vendor/samsung/v2awifi/proprietary/lib/libarcsoft_picaction.so:system/lib/libarcsoft_picaction.so \
-    vendor/samsung/v2awifi/proprietary/lib/libarcsoft_picaction_manual.so:system/lib/libarcsoft_picaction_manual.so \
-    vendor/samsung/v2awifi/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
-    vendor/samsung/v2awifi/proprietary/lib/libarcsoft_skin_soften.so:system/lib/libarcsoft_skin_soften.so
-
-
 # Noise suppression
 PRODUCT_COPY_FILES += \
     vendor/samsung/v2awifi/proprietary/vendor/lib/liblvverx_3.20.03.so:system/vendor/lib/liblvverx_3.20.03.so \
@@ -150,22 +138,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/v2awifi/proprietary/lib/lib_SA_GoogleFX_ver119k.so:system/lib/lib_SA_GoogleFX_ver119k.so \
     vendor/samsung/v2awifi/proprietary/lib/lib_SoundAlive_play_vol_ver125e.so:system/lib/lib_SoundAlive_play_vol_ver125e.so
 
-# Common
-PRODUCT_COPY_FILES += \
-    vendor/samsung/v2awifi/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so
-
 # MediaServer
 PRODUCT_COPY_FILES += \
     vendor/samsung/n1awifi/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/v2awifi/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so
-    
-# Camera
-PRODUCT_COPY_FILES += \
-    vendor/samsung/v2awifi/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.universal5420.so \
-    vendor/samsung/v2awifi/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-    vendor/samsung/v2awifi/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
-    vendor/samsung/v2awifi/proprietary/lib/libvdis.so:system/lib/libvdis.so \
-    vendor/samsung/v2awifi/proprietary/lib/libmor.so:system/lib/libmor.so
 
 # Sensors
 PRODUCT_COPY_FILES += \
