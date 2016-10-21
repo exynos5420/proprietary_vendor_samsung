@@ -53,20 +53,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/n1awifi/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/n1awifi/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
 
-# Camera - arcsoft
-PRODUCT_COPY_FILES += \
-    vendor/samsung/n1awifi/proprietary/lib/libarcsoft_night_shot_ex.so:system/lib/libarcsoft_night_shot_ex.so \
-    vendor/samsung/n1awifi/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
-    vendor/samsung/n1awifi/proprietary/lib/libarcsoft_picaction_manual.so:system/lib/libarcsoft_picaction_manual.so \
-    vendor/samsung/n1awifi/proprietary/lib/libarcsoft_picaction.so:system/lib/libarcsoft_picaction.so \
-    vendor/samsung/n1awifi/proprietary/lib/libarcsoft_selfie_camera_lite.so:system/lib/libarcsoft_selfie_camera_lite.so \
-    vendor/samsung/n1awifi/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so
-
 # Camera
 PRODUCT_COPY_FILES += \
     vendor/samsung/n1awifi/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
     vendor/samsung/n1awifi/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-    vendor/samsung/n1awifi/proprietary/lib/libmor.so:system/lib/libmor.so \
     vendor/samsung/n1awifi/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/n1awifi/proprietary/lib/libvdis.so:system/lib/libvdis.so
 
