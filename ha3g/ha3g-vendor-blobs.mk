@@ -301,6 +301,10 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_V0091.0405_wisol.hcd:system/vendor/firmware/bcm4335_V0091.0405_wisol.hcd \
+  vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_V0093.0400_murata.hcd:system/vendor/firmware/bcm4335_V0093.0400_murata.hcd \
+  vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_V0093.0400_semco.hcd:system/vendor/firmware/bcm4335_V0093.0400_semco.hcd \
+  vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_V0093.0400_semcosh.hcd:system/vendor/firmware/bcm4335_V0093.0400_semcosh.hcd \
+  vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_V0093.0400_semcove.hcd:system/vendor/firmware/bcm4335_V0093.0400_semcove.hcd \
   vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_V0093.0400.hcd:system/vendor/firmware/bcm4335_V0093.0400.hcd
 
 # Samsung Exynos5 SoC series FIMC-IS driver firmware
