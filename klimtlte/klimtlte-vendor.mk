@@ -22,3 +22,4 @@ $(call inherit-product, vendor/samsung/tabs-common/tabs-common-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS := vendor/samsung/klimtlte/overlay
 
 $(call inherit-product, vendor/samsung/klimtlte/klimtlte-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/klimt-common/klimt-common-vendor.mk)
