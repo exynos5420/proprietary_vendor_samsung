@@ -68,6 +68,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/sbin/sswap:root/sbin/sswap
 
+# Samsung S5P Multi Format Codec V5/V6 firmware (Used by Widevine)
+PRODUCT_COPY_FILES += \
+    vendor/samsung/exynos5420-common/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin
+
 # Widevine From T805XXU1CPH5
 PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
