@@ -88,7 +88,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/n1awifi/proprietary/vendor/firmware/fimc_is_fw2_IMX134.bin:system/vendor/firmware/fimc_is_fw2_IMX134.bin \
     vendor/samsung/n1awifi/proprietary/vendor/firmware/setfile_6b2.bin:system/vendor/firmware/setfile_6b2.bin \
     vendor/samsung/n1awifi/proprietary/vendor/firmware/setfile_imx134.bin:system/vendor/firmware/setfile_imx134.bin
-
-# Samsung S5P Multi Format Codec V5/V6 firmware
-PRODUCT_COPY_FILES += \
-    vendor/samsung/n1awifi/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin
