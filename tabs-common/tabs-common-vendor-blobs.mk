@@ -87,10 +87,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/n1awifi/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/tabs-common/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so
 
-# Samsung S5P Multi Format Codec V5/V6 firmware
-PRODUCT_COPY_FILES += \
-    vendor/samsung/tabs-common/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin
-
 # Samsung Exynos5 SoC series FIMC-IS driver firmware
 PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin:system/vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin \
