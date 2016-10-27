@@ -56,15 +56,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/n2awifi/proprietary/vendor/firmware/fimc_is_fw2_IMX134.bin:system/vendor/firmware/fimc_is_fw2_IMX134.bin \
     vendor/samsung/n2awifi/proprietary/vendor/firmware/setfile_6b2.bin:system/vendor/firmware/setfile_6b2.bin \
     vendor/samsung/n2awifi/proprietary/vendor/firmware/setfile_imx134.bin:system/vendor/firmware/setfile_imx134.bin
-
-# Samsung S5P Multi Format Codec V5/V6 firmware
-PRODUCT_COPY_FILES += \
-    vendor/samsung/n2awifi/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin
-
-# Sound effects
-PRODUCT_COPY_FILES += \
-    vendor/samsung/n2awifi/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
-    vendor/samsung/n2awifi/proprietary/lib/libmysound.so:system/lib/libmysound.so \
-    vendor/samsung/n2awifi/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
-    vendor/samsung/n2awifi/proprietary/lib/lib_SA_GoogleFX_ver124b.so:system/lib/lib_SA_GoogleFX_ver124b.so \
-    vendor/samsung/n2awifi/proprietary/lib/lib_SoundAlive_play_ver125e.so:system/lib/lib_SoundAlive_play_ver125e.so
