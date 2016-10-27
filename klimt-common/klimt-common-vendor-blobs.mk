@@ -16,7 +16,9 @@
 
 # Bluetooth firmware
 PRODUCT_COPY_FILES += \
-    vendor/samsung/klimt-common/proprietary/vendor/firmware/bcm4350_V0375.0793.hcd:system/vendor/firmware/bcm4350_V0375.0793.hcd
+    vendor/samsung/klimt-common/proprietary/vendor/firmware/bcm4350.hcd:system/vendor/firmware/bcm4350.hcd \
+    vendor/samsung/klimt-common/proprietary/vendor/firmware/bcm4350_murata.hcd:system/vendor/firmware/bcm4350_murata.hcd \
+    vendor/samsung/klimt-common/proprietary/vendor/firmware/bcm4350_semco.hcd:system/vendor/firmware/bcm4350_semco.hcd
 
 # GPS
 PRODUCT_COPY_FILES += \
