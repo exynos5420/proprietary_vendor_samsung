@@ -1,2 +1,0 @@
-DGAIN = 2
-DOEENABLE = 1
