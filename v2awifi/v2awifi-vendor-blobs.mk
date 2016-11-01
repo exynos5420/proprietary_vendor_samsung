@@ -136,7 +136,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/v2awifi/proprietary/lib/libmysound.so:system/lib/libmysound.so \
     vendor/samsung/v2awifi/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
     vendor/samsung/v2awifi/proprietary/lib/lib_SA_GoogleFX_ver119k.so:system/lib/lib_SA_GoogleFX_ver119k.so \
-    vendor/samsung/v2awifi/proprietary/lib/lib_SoundAlive_play_vol_ver125e.so:system/lib/lib_SoundAlive_play_vol_ver125e.so
+    vendor/samsung/v2awifi/proprietary/lib/lib_SoundAlive_play_ver125e.so:system/lib/lib_SoundAlive_play_ver125e.so
 
 # MediaServer
 PRODUCT_COPY_FILES += \
