@@ -65,9 +65,13 @@ PRODUCT_COPY_FILES += \
 # WiFi - Firmware
 PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
+    vendor/samsung/tabs-common/proprietary/etc/wifi/bcmdhd_apsta.bin_a0:system/etc/wifi/bcmdhd_apsta.bin_a0 \
     vendor/samsung/tabs-common/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
+    vendor/samsung/tabs-common/proprietary/etc/wifi/bcmdhd_mfg.bin_a0:system/etc/wifi/bcmdhd_mfg.bin_a0 \
     vendor/samsung/tabs-common/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
+    vendor/samsung/tabs-common/proprietary/etc/wifi/bcmdhd_sta.bin_a0:system/etc/wifi/bcmdhd_sta.bin_a0 \
     vendor/samsung/tabs-common/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
+    vendor/samsung/tabs-common/proprietary/etc/wifi/bcmdhd_ibss.bin_a0:system/etc/wifi/bcmdhd_ibss.bin_a0 \
     vendor/samsung/tabs-common/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
     vendor/samsung/tabs-common/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/tabs-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
