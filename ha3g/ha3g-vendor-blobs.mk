@@ -69,7 +69,7 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/bin/gpsd:system/bin/gpsd \
-  vendor/samsung/ha3g/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+  vendor/samsung/ha3g/proprietary/lib/hw/gps.universal5420.so:system/lib/hw/gps.universal5420.so \
   vendor/samsung/ha3g/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so
 
 # MediaServer
