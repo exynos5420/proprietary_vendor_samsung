@@ -28,6 +28,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/exynos5420-common/proprietary/lib/libvdis.so:system/lib/libvdis.so
 
+# MediaServer
+PRODUCT_COPY_FILES += \
+    vendor/samsung/exynos5420-common/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so
+
 # Service for TZPR provisioning version check app
 PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/bin/scranton_RD:system/bin/scranton_RD

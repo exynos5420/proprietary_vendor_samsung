@@ -71,8 +71,7 @@ PRODUCT_COPY_FILES += \
 
 # MediaServer
 PRODUCT_COPY_FILES += \
-  vendor/samsung/ha3g/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
-  vendor/samsung/ha3g/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so
+  vendor/samsung/ha3g/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so
 
 # Prebuilt Audio because of the Yamaha chip I HATE THIS
 PRODUCT_COPY_FILES += \
