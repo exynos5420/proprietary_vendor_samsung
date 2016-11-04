@@ -93,10 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/vendor/firmware/setfile_6b2_eeprom.bin:system/vendor/firmware/setfile_6b2_eeprom.bin \
     vendor/samsung/tabs-common/proprietary/vendor/firmware/setfile_imx134_eeprom.bin:system/vendor/firmware/setfile_imx134_eeprom.bin
 
-# SSWAP
-PRODUCT_COPY_FILES += \
-    vendor/samsung/tabs-common/proprietary/sbin/sswap:root/sbin/sswap
-
 # Noise suppression
 PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/vendor/lib/liblvverx_3.20.03.so:system/vendor/lib/liblvverx_3.20.03.so \

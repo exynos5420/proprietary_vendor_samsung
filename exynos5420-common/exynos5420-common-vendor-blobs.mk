@@ -36,6 +36,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/bin/scranton_RD:system/bin/scranton_RD
 
+# SSWAP
+PRODUCT_COPY_FILES += \
+    vendor/samsung/exynos5420-common/proprietary/sbin/sswap:root/sbin/sswap
+
 # Widevine From T805XXU1CPH5
 PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
