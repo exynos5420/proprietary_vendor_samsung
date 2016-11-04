@@ -28,6 +28,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/exynos5420-common/proprietary/lib/libvdis.so:system/lib/libvdis.so
 
+# MediaServer
+PRODUCT_COPY_FILES += \
+    vendor/samsung/exynos5420-common/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so
+
 # Widevine From T805XXU1CPH5
 PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \

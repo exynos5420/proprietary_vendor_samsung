@@ -55,8 +55,7 @@ PRODUCT_COPY_FILES += \
 
 # MediaServer
 PRODUCT_COPY_FILES += \
-    vendor/samsung/n1awifi/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
-    vendor/samsung/n1awifi/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so
+    vendor/samsung/n1awifi/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so
 
 # GPS
 PRODUCT_COPY_FILES += \
