@@ -39,10 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/n1awifi/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
     vendor/samsung/n1awifi/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin 
 
-# Service for TZPR provisioning version check app
-PRODUCT_COPY_FILES += \
-    vendor/samsung/n1awifi/proprietary/bin/scranton_RD:system/bin/scranton_RD
-
 # WiFi - Firmware
 PRODUCT_COPY_FILES += \
     vendor/samsung/n1awifi/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
