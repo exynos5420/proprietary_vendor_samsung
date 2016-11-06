@@ -32,8 +32,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so
 
-<<<<<<< HEAD
-=======
 # Mobicore
 PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/bin/cs:system/bin/cs \
