@@ -39,10 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/v2awifi/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
     vendor/samsung/v2awifi/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin
 
-# Service for TZPR provisioning version check app
-PRODUCT_COPY_FILES += \
-    vendor/samsung/v2awifi/proprietary/bin/scranton_RD:system/bin/scranton_RD
-
 # WiFi - Firmware
 PRODUCT_COPY_FILES += \
     vendor/samsung/v2awifi/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
