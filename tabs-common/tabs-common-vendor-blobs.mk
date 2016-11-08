@@ -54,8 +54,7 @@ PRODUCT_COPY_FILES += \
 
 # MediaServer
 PRODUCT_COPY_FILES += \
-    vendor/samsung/n1awifi/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
-    vendor/samsung/tabs-common/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so
+    vendor/samsung/n1awifi/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so
 
 # Samsung Exynos5 SoC series FIMC-IS driver firmware
 PRODUCT_COPY_FILES += \
