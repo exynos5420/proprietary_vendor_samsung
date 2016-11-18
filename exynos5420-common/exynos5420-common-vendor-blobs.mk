@@ -28,10 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/exynos5420-common/proprietary/lib/libvdis.so:system/lib/libvdis.so
 
-# MediaServer
-PRODUCT_COPY_FILES += \
-    vendor/samsung/exynos5420-common/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so
-
 # Mobicore
 PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/bin/cs:system/bin/cs \
@@ -72,8 +68,6 @@ PRODUCT_COPY_FILES += \
 
 # Widevine From T805XXU1CPH5
 PRODUCT_COPY_FILES += \
-    vendor/samsung/exynos5420-common/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
-    vendor/samsung/exynos5420-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/exynos5420-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/exynos5420-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/exynos5420-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \

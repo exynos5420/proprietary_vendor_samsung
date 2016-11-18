@@ -41,10 +41,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/hw/gps.universal5420.so:system/lib/hw/gps.universal5420.so \
   vendor/samsung/ha3g/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so
 
-# MediaServer
-PRODUCT_COPY_FILES += \
-  vendor/samsung/ha3g/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so
-
 # Prebuilt Audio because of the Yamaha chip I HATE THIS
 PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/hw/audio_policy.universal5420.so:system/lib/hw/audio_policy.universal5420.so \

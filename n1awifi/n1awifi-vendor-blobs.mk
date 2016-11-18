@@ -24,10 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/n1awifi/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/n1awifi/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
 
-# MediaServer
-PRODUCT_COPY_FILES += \
-    vendor/samsung/n1awifi/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so
-
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/samsung/n1awifi/proprietary/bin/gpsd:system/bin/gpsd \
