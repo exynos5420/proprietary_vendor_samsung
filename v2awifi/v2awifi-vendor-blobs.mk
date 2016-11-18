@@ -109,10 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/v2awifi/proprietary/lib/lib_SA_GoogleFX_ver119k.so:system/lib/lib_SA_GoogleFX_ver119k.so \
     vendor/samsung/v2awifi/proprietary/lib/lib_SoundAlive_play_ver125e.so:system/lib/lib_SoundAlive_play_ver125e.so
 
-# MediaServer
-PRODUCT_COPY_FILES += \
-    vendor/samsung/n1awifi/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so
-
 # Sensors
 PRODUCT_COPY_FILES += \
     vendor/samsung/v2awifi/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so \
