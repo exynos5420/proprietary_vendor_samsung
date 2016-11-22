@@ -19,7 +19,11 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth firmware
 PRODUCT_COPY_FILES += \
-    vendor/samsung/chagalllte/proprietary/vendor/firmware/bcm4350_V0301.0591.hcd:system/vendor/firmware/bcm4350_V0301.0591.hcd
+    vendor/samsung/chagalllte/proprietary/vendor/firmware/bcm4350.hcd:system/vendor/firmware/bcm4350.hcd \
+    vendor/samsung/chagalllte/proprietary/vendor/firmware/bcm4350_murata.hcd:system/vendor/firmware/bcm4350_murata.hcd \
+    vendor/samsung/chagalllte/proprietary/vendor/firmware/bcm4350_semco.hcd:system/vendor/firmware/bcm4350_semco.hcd \
+    vendor/samsung/chagalllte/proprietary/vendor/firmware/bcm4350_semcosh.hcd:system/vendor/firmware/bcm4350_semcosh.hcd \
+    vendor/samsung/chagalllte/proprietary/vendor/firmware/bcm4350_semcove.hcd:system/vendor/firmware/bcm4350_semcove.hcd
 
 # Sensors
 PRODUCT_COPY_FILES += \
