@@ -16,4 +16,4 @@
 
 # Camera
 PRODUCT_COPY_FILES += \
-    vendor/samsung/exynos5420-common/proprietary/lib/hw/camera.land.universal5420.so:system/lib/hw/camera.vendor.universal5420.so
+    vendor/samsung/exynos5420-common/proprietary/lib/hw/camera.land.universal5420.so:system/lib/hw/camera.universal5420.so
