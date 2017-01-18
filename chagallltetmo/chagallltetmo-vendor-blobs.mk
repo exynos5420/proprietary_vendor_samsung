@@ -14,11 +14,16 @@
 
 # RIL
 PRODUCT_COPY_FILES += \
+    vendor/samsung/chagallltetmo/proprietary/bin/cbd:system/bin/cbd \
     vendor/samsung/chagallltetmo/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
 
 # Bluetooth firmware
 PRODUCT_COPY_FILES += \
-    vendor/samsung/chagallltetmo/proprietary/vendor/firmware/bcm4350_V0301.0595.hcd:system/vendor/firmware/bcm4350_V0301.0595.hcd
+    vendor/samsung/chagallltetmo/proprietary/vendor/firmware/bcm4350.hcd:system/vendor/firmware/bcm4350.hcd \
+    vendor/samsung/chagallltetmo/proprietary/vendor/firmware/bcm4350_murata.hcd:system/vendor/firmware/bcm4350_murata.hcd \
+    vendor/samsung/chagallltetmo/proprietary/vendor/firmware/bcm4350_semco.hcd:system/vendor/firmware/bcm4350_semco.hcd \
+    vendor/samsung/chagallltetmo/proprietary/vendor/firmware/bcm4350_semcosh.hcd:system/vendor/firmware/bcm4350_semcosh.hcd \
+    vendor/samsung/chagallltetmo/proprietary/vendor/firmware/bcm4350_semcove.hcd:system/vendor/firmware/bcm4350_semcove.hcd
 
 # Sensors
 PRODUCT_COPY_FILES += \
