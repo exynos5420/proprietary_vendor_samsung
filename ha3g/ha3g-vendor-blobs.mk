@@ -143,13 +143,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/etc/ymc/param/aec_sidetone_vol_wb.dat:system/etc/ymc/param/aec_sidetone_vol_wb.dat \
   vendor/samsung/ha3g/proprietary/etc/ymc/param/aec_sp_dac1.dat:system/etc/ymc/param/aec_sp_dac1.dat
 
-# Prebuilt Scaler and HDMI I HATE THIS
-PRODUCT_COPY_FILES += \
-  vendor/samsung/ha3g/proprietary/lib/libcsc.so:system/lib/libcsc.so \
-  vendor/samsung/ha3g/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
-  vendor/samsung/ha3g/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
-  vendor/samsung/ha3g/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so
-
 # Noise suppression
 PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/vendor/lib/liblvverx_3.20.03.so:system/vendor/lib/liblvverx_3.20.03.so \
