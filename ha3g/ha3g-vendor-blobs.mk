@@ -164,39 +164,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
   vendor/samsung/ha3g/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so
 
-# Prebuilt OMX I HATE THIS
-PRODUCT_COPY_FILES += \
-  vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-  vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-  vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-  vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-  vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
-  vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
-  vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
-  vendor/samsung/ha3g/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
-  vendor/samsung/ha3g/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
-  vendor/samsung/ha3g/proprietary/lib/libsomx263dsw.so:system/lib/libsomx263dsw.so \
-  vendor/samsung/ha3g/proprietary/lib/libsomx264dsw.so:system/lib/libsomx264dsw.so \
-  vendor/samsung/ha3g/proprietary/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
-  vendor/samsung/ha3g/proprietary/lib/libsomxaace.so:system/lib/libsomxaace.so \
-  vendor/samsung/ha3g/proprietary/lib/libsomxadpcmd.so:system/lib/libsomxadpcmd.so \
-  vendor/samsung/ha3g/proprietary/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
-  vendor/samsung/ha3g/proprietary/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
-  vendor/samsung/ha3g/proprietary/lib/libsomxcore.so:system/lib/libsomxcore.so \
-  vendor/samsung/ha3g/proprietary/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
-  vendor/samsung/ha3g/proprietary/lib/libsomxhevcdsw.so:system/lib/libsomxhevcdsw.so \
-  vendor/samsung/ha3g/proprietary/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
-  vendor/samsung/ha3g/proprietary/lib/libsomxmp4vdsw.so:system/lib/libsomxmp4vdsw.so \
-  vendor/samsung/ha3g/proprietary/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
-  vendor/samsung/ha3g/proprietary/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
-  vendor/samsung/ha3g/proprietary/lib/libsomxvc1dsw.so:system/lib/libsomxvc1dsw.so \
-  vendor/samsung/ha3g/proprietary/lib/libsomxvencsw.so:system/lib/libsomxvencsw.so \
-  vendor/samsung/ha3g/proprietary/lib/libsomxvp8d.so:system/lib/libsomxvp8d.so \
-  vendor/samsung/ha3g/proprietary/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
-  vendor/samsung/ha3g/proprietary/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
-  vendor/samsung/ha3g/proprietary/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
-  vendor/samsung/ha3g/proprietary/lib/egl/libsomxaace.so:system/lib/egl/libsomxaace.so
-
 # Noise suppression
 PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/vendor/lib/liblvverx_3.20.03.so:system/vendor/lib/liblvverx_3.20.03.so \
