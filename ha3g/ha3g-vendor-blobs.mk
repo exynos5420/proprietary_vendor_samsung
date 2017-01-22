@@ -41,7 +41,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/hw/gps.universal5420.so:system/lib/hw/gps.universal5420.so \
   vendor/samsung/ha3g/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so
 
-# Prebuilt Audio because of the Yamaha chip I HATE THIS
+# Prebuilt Audio and Samsung sound effects. Because of the Yamaha chip I HATE THIS
 PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/hw/audio_policy.universal5420.so:system/lib/hw/audio_policy.universal5420.so \
   vendor/samsung/ha3g/proprietary/lib/hw/audio.primary.universal5420.so:system/lib/hw/audio.primary.universal5420.so \
@@ -58,25 +58,11 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
   vendor/samsung/ha3g/proprietary/lib/lib_Samsung_AudioZoom_v102.so:system/lib/lib_Samsung_AudioZoom_v102.so \
   vendor/samsung/ha3g/proprietary/lib/lib_SoundBooster_ver402.so:system/lib/lib_SoundBooster_ver402.so \
-  vendor/samsung/ha3g/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf
-
-# Samsung Sound effects I HATE THIS
-PRODUCT_COPY_FILES += \
+  vendor/samsung/ha3g/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
   vendor/samsung/ha3g/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
   vendor/samsung/ha3g/proprietary/lib/lib_SA_GoogleFX_ver124b.so:system/lib/lib_SA_GoogleFX_ver124b.so \
   vendor/samsung/ha3g/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
   vendor/samsung/ha3g/proprietary/lib/lib_SoundAlive_play_ver125e.so:system/lib/lib_SoundAlive_play_ver125e.so \
-  vendor/samsung/ha3g/proprietary/lib/libsamsungSoundbooster_ext.so:system/lib/libsamsungSoundbooster_ext.so \
-  vendor/samsung/ha3g/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
-  vendor/samsung/ha3g/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
-  vendor/samsung/ha3g/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
-  vendor/samsung/ha3g/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
-  vendor/samsung/ha3g/proprietary/lib/libsamsungRecord_zoom.so:system/lib/libsamsungRecord_zoom.so \
-  vendor/samsung/ha3g/proprietary/lib/lib_SoundAlive_SRC192_ver205.so:system/lib/lib_SoundAlive_SRC192_ver205.so \
-  vendor/samsung/ha3g/proprietary/lib/lib_SamsungRec_V04004.so:system/lib/lib_SamsungRec_V04004.so \
-  vendor/samsung/ha3g/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
-  vendor/samsung/ha3g/proprietary/lib/lib_Samsung_AudioZoom_v102.so:system/lib/lib_Samsung_AudioZoom_v102.so \
-  vendor/samsung/ha3g/proprietary/lib/lib_SoundBooster_ver402.so:system/lib/lib_SoundBooster_ver402.so \
   vendor/samsung/ha3g/proprietary/lib/libmysound.so:system/lib/libmysound.so \
   vendor/samsung/ha3g/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
   vendor/samsung/ha3g/proprietary/lib/lib_SA_GoogleFX_ver124b.so:system/lib/lib_SA_GoogleFX_ver124b.so \
