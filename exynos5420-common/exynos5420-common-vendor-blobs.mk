@@ -78,3 +78,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/vendor/lib/liblvverx_3.20.03.so:system/vendor/lib/liblvverx_3.20.03.so \
     vendor/samsung/tabs-common/proprietary/vendor/lib/liblvvetx_3.20.03.so:system/vendor/lib/liblvvetx_3.20.03.so
+
+# SRP Audio driver for Samsung Exynos firmware
+PRODUCT_COPY_FILES += \
+  vendor/samsung/ha3g/proprietary/vendor/firmware/srp_cga.bin:system/vendor/firmware/srp_cga.bin \
+  vendor/samsung/ha3g/proprietary/vendor/firmware/srp_data.bin:system/vendor/firmware/srp_data.bin \
+  vendor/samsung/ha3g/proprietary/vendor/firmware/srp_vliw.bin:system/vendor/firmware/srp_vliw.bin
