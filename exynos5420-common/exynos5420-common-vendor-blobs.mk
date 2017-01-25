@@ -73,3 +73,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/exynos5420-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/samsung/exynos5420-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
+
+# Noise Suppression Controller
+PRODUCT_COPY_FILES += \
+    vendor/samsung/exynos5420-common/proprietary/vendor/lib/liblvverx_3.20.03.so:system/vendor/lib/liblvverx_3.20.03.so \
+    vendor/samsung/exynos5420-common/proprietary/vendor/lib/liblvvetx_3.20.03.so:system/vendor/lib/liblvvetx_3.20.03.so
