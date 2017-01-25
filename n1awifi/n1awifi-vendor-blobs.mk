@@ -27,17 +27,12 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/samsung/n1awifi/proprietary/bin/gpsd:system/bin/gpsd \
-    vendor/samsung/n1awifi/proprietary/etc/gps.conf.txt:system/etc/gps.conf.txt \
     vendor/samsung/n1awifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/samsung/n1awifi/proprietary/etc/gps.xml:system/etc/gps.xml
 
 # Sensors
 PRODUCT_COPY_FILES += \
     vendor/samsung/n1awifi/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so \
-    vendor/samsung/n1awifi/proprietary/lib/libak8963c.so:system/lib/libak8963c.so \
-    vendor/samsung/n1awifi/proprietary/etc/PARAM.ini.txt:system/etc/PARAM.ini.txt \
-    vendor/samsung/n1awifi/proprietary/etc/PDC.ini.txt:system/etc/PDC.ini.txt \
-    vendor/samsung/n1awifi/proprietary/etc/srm.bin:system/etc/srm.bin
+    vendor/samsung/n1awifi/proprietary/lib/libak8963c.so:system/lib/libak8963c.so
 
 # SRP Audio driver for Samsung Exynos firmware
 PRODUCT_COPY_FILES += \
