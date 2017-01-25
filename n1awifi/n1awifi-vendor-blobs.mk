@@ -34,12 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/n1awifi/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so \
     vendor/samsung/n1awifi/proprietary/lib/libak8963c.so:system/lib/libak8963c.so
 
-# SRP Audio driver for Samsung Exynos firmware
-PRODUCT_COPY_FILES += \
-    vendor/samsung/n1awifi/proprietary/vendor/firmware/srp_cga.bin:system/vendor/firmware/srp_cga.bin \
-    vendor/samsung/n1awifi/proprietary/vendor/firmware/srp_data.bin:system/vendor/firmware/srp_data.bin \
-    vendor/samsung/n1awifi/proprietary/vendor/firmware/srp_vliw.bin:system/vendor/firmware/srp_vliw.bin
-
 # Bluetooth
 PRODUCT_COPY_FILES += \
     vendor/samsung/n1awifi/proprietary/vendor/firmware/bcm4335_V0105.0552.hcd:system/vendor/firmware/bcm4335_V0105.0552.hcd

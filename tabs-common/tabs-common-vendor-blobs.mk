@@ -42,12 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/tabs-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
 
-# SRP Audio driver for Samsung Exynos firmware
-PRODUCT_COPY_FILES += \
-    vendor/samsung/tabs-common/proprietary/vendor/firmware/srp_cga.bin:system/vendor/firmware/srp_cga.bin \
-    vendor/samsung/tabs-common/proprietary/vendor/firmware/srp_data.bin:system/vendor/firmware/srp_data.bin \
-    vendor/samsung/tabs-common/proprietary/vendor/firmware/srp_vliw.bin:system/vendor/firmware/srp_vliw.bin
-
 # Sensors
 PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/lib/libak09911c.so:system/lib/libak09911c.so
