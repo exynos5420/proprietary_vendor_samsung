@@ -106,14 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/v1a3g/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
     vendor/samsung/v1a3g/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
 
-# Sound effects
-PRODUCT_COPY_FILES += \
-    vendor/samsung/v1a3g/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
-    vendor/samsung/v1a3g/proprietary/lib/libmysound.so:system/lib/libmysound.so \
-    vendor/samsung/v1a3g/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
-    vendor/samsung/v1a3g/proprietary/lib/lib_SA_GoogleFX_ver119k.so:system/lib/lib_SA_GoogleFX_ver119k.so \
-    vendor/samsung/v1a3g/proprietary/lib/lib_SoundAlive_play_ver125e.so:system/lib/lib_SoundAlive_play_ver125e.so
-
 # Sensors
 PRODUCT_COPY_FILES += \
     vendor/samsung/v1a3g/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so \
