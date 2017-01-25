@@ -191,12 +191,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
   vendor/samsung/ha3g/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt 
 
-# SRP Audio driver for Samsung Exynos firmware
-PRODUCT_COPY_FILES += \
-  vendor/samsung/ha3g/proprietary/vendor/firmware/srp_cga.bin:system/vendor/firmware/srp_cga.bin \
-  vendor/samsung/ha3g/proprietary/vendor/firmware/srp_data.bin:system/vendor/firmware/srp_data.bin \
-  vendor/samsung/ha3g/proprietary/vendor/firmware/srp_vliw.bin:system/vendor/firmware/srp_vliw.bin
-
 # Bluetooth
 PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_V0091.0405_wisol.hcd:system/vendor/firmware/bcm4335_V0091.0405_wisol.hcd \
