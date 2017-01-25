@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/v1awifi/proprietary/etc/wifi/bcmdhd_sta.bin_a0:system/etc/wifi/bcmdhd_sta.bin_a0 \
     vendor/samsung/v1awifi/proprietary/etc/wifi/bcmdhd_sta_tput.bin_a0:system/etc/wifi/bcmdhd_sta_tput.bin_a0 \
     vendor/samsung/v1awifi/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
-    vendor/samsung/v1awifi/proprietary/etc/wifi/olsrd.conf:system/etc/wifi/olsrd.conf \
     vendor/samsung/v1awifi/proprietary/etc/wifi/nvram_mfg.txt_4339_a0:system/etc/wifi/nvram_mfg.txt_4339_a0 \
     vendor/samsung/v1awifi/proprietary/etc/wifi/nvram_net.txt_4339_a0:system/etc/wifi/nvram_net.txt_4339_a0 \
     vendor/samsung/v1awifi/proprietary/etc/wifi/nvram_mfg.txt_4354_a0:system/etc/wifi/nvram_mfg.txt_4354_a0 \
