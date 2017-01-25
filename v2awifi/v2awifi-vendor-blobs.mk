@@ -109,12 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/v2awifi/proprietary/vendor/firmware/setfile_6b2.bin:system/vendor/firmware/setfile_6b2.bin \
     vendor/samsung/v2awifi/proprietary/vendor/firmware/setfile_imx134.bin:system/vendor/firmware/setfile_imx134.bin
 
-# SRP Audio driver for Samsung Exynos firmware
-PRODUCT_COPY_FILES += \
-    vendor/samsung/v2awifi/proprietary/vendor/firmware/srp_cga.bin:system/vendor/firmware/srp_cga.bin \
-    vendor/samsung/v2awifi/proprietary/vendor/firmware/srp_data.bin:system/vendor/firmware/srp_data.bin \
-    vendor/samsung/v2awifi/proprietary/vendor/firmware/srp_vliw.bin:system/vendor/firmware/srp_vliw.bin
-
 # Bluetooth
 PRODUCT_COPY_FILES += \
     vendor/samsung/v2awifi/proprietary/vendor/firmware/bcm4335_V0105.0541.hcd:system/vendor/firmware/bcm4335_V0105.0541.hcd \
