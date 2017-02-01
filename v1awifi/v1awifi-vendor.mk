@@ -19,4 +19,4 @@
 DEVICE_PACKAGE_OVERLAYS := vendor/samsung/v1awifi/overlay
 
 $(call inherit-product, vendor/samsung/v1awifi/v1awifi-vendor-blobs.mk)
-$(call inherit-product, vendor/samsung/vx-common/vx-common-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/vx-common/vx-common-vendor.mk)
