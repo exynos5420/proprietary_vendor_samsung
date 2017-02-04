@@ -17,4 +17,5 @@
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    vendor/samsung/v2awifi/proprietary/lib/libak09911c.so:system/lib/libak09911c.so
+    vendor/samsung/v2awifi/proprietary/lib/libak09911c.so:system/lib/libak09911c.so \
+    vendor/samsung/v2awifi/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so
