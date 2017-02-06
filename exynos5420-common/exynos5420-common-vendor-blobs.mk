@@ -88,3 +88,7 @@ PRODUCT_COPY_FILES += \
 # OSS verison causes a protobuf error
 PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/lib/libGLES_trace.so:system/lib/libGLES_trace.so
+
+# AVC Encoder. The OSS version does not work well
+PRODUCT_COPY_FILES += \
+    vendor/samsung/exynos5420-common/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so
