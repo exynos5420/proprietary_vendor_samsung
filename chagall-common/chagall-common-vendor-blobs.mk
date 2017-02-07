@@ -21,12 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/chagall-common/proprietary/etc/wifi/nvram_net.txt_4354_a0:system/etc/wifi/nvram_net.txt_4354_a0 \
     vendor/samsung/chagall-common/proprietary/etc/wifi/nvram_net.txt_4354_a1:system/etc/wifi/nvram_net.txt_4354_a1
 
-# GPS
-PRODUCT_COPY_FILES += \
-    vendor/samsung/chagall-common/proprietary/bin/gpsd:system/bin/gpsd \
-    vendor/samsung/chagall-common/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
-    vendor/samsung/chagall-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so
-
 # Noise suppression
 PRODUCT_COPY_FILES += \
     vendor/samsung/chagall-common/proprietary/vendor/etc/nxp/LVVEFS_Rx_Configuration.txt:system/vendor/etc/nxp/LVVEFS_Rx_Configuration.txt \
