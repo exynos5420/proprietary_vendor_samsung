@@ -22,12 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimt-common/proprietary/vendor/firmware/bcm4350_semcosh.hcd:system/vendor/firmware/bcm4350_semcosh.hcd \
     vendor/samsung/klimt-common/proprietary/vendor/firmware/bcm4350_semcove.hcd:system/vendor/firmware/bcm4350_semcove.hcd
 
-# GPS
-PRODUCT_COPY_FILES += \
-    vendor/samsung/klimt-common/proprietary/bin/gpsd:system/bin/gpsd \
-    vendor/samsung/klimt-common/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
-    vendor/samsung/klimt-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so
-
 # Noise suppression
 PRODUCT_COPY_FILES += \
     vendor/samsung/klimt-common/proprietary/vendor/etc/nxp/LVVEFS_Rx_Configuration.txt:system/vendor/etc/nxp/LVVEFS_Rx_Configuration.txt \
