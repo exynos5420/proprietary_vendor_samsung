@@ -18,6 +18,11 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/klimtwifi/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so
 
+# GPS
+PRODUCT_COPY_FILES += \
+    vendor/samsung/klimtwifi/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/klimtwifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so
+
 # Noise suppression
 PRODUCT_COPY_FILES += \
     vendor/samsung/klimtwifi/proprietary/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_EARPIECE.txt:system/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
