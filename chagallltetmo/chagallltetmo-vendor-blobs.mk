@@ -20,6 +20,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/chagallltetmo/proprietary/vendor/firmware/bcm4350_V0301.0595.hcd:system/vendor/firmware/bcm4350_V0301.0595.hcd
 
+# GPS
+PRODUCT_COPY_FILES += \
+    vendor/samsung/chagallltetmo/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/chagallltetmo/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
+    vendor/samsung/chagallltetmo/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so
+
 # Sensors
 PRODUCT_COPY_FILES += \
     vendor/samsung/chagallltetmo/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so
