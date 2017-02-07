@@ -19,6 +19,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtlte/proprietary/bin/cbd:system/bin/cbd \
     vendor/samsung/klimtlte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
 
+# GPS
+PRODUCT_COPY_FILES += \
+    vendor/samsung/klimtlte/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/klimtlte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
+    vendor/samsung/klimtlte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so
+
 # Sensors
 PRODUCT_COPY_FILES += \
     vendor/samsung/klimtlte/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so
