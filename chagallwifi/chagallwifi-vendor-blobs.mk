@@ -18,6 +18,11 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/chagallwifi/proprietary/vendor/firmware/bcm4350_V0301.0601.hcd:system/vendor/firmware/bcm4350_V0301.0601.hcd
 
+# GPS
+PRODUCT_COPY_FILES += \
+    vendor/samsung/chagallwifi/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/chagallwifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so
+
 # Sensors
 PRODUCT_COPY_FILES += \
     vendor/samsung/chagallwifi/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so
