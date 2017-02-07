@@ -17,6 +17,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/chagalllte/proprietary/bin/cbd:system/bin/cbd \
     vendor/samsung/chagalllte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
 
+# GPS
+PRODUCT_COPY_FILES += \
+    vendor/samsung/chagalllte/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/chagalllte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
+    vendor/samsung/chagalllte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so
+
 # Bluetooth firmware
 PRODUCT_COPY_FILES += \
     vendor/samsung/chagalllte/proprietary/vendor/firmware/bcm4350.hcd:system/vendor/firmware/bcm4350.hcd \
