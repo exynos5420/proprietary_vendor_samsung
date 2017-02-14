@@ -13,9 +13,9 @@
 # limitations under the License.
 
 # RIL
-PRODUCT_COPY_FILES += \
-    vendor/samsung/chagalllte/proprietary/bin/cbd:system/bin/cbd \
-    vendor/samsung/chagalllte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/chagalllte/proprietary/bin/cbd:system/bin/cbd \
+#    vendor/samsung/chagalllte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
 
 # GPS
 PRODUCT_COPY_FILES += \
