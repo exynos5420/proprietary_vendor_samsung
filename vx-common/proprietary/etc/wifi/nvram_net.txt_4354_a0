@@ -9,7 +9,7 @@ boardflags2=0x00802000
 boardflags3=0x40000109
 
 macaddr=00:90:4c:16:70:01
-ccode=ALL
+ccode=00
 regrev=6
 antswitch=0
 pdgain5g=4
@@ -26,7 +26,9 @@ nocrc=1
 otpimagesize=502
 muxenab=0x10
 xtalfreq=37400
-## Rx setting for Ant0
+
+
+## Rx setting for Ant0
 rxgains2gelnagaina0=5
 rxgains5gelnagaina0=3
 rxgains5gmelnagaina0=3
