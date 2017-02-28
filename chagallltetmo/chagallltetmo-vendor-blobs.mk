@@ -1,4 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,6 +15,7 @@
 
 # RIL
 PRODUCT_COPY_FILES += \
+    vendor/samsung/chagallltetmo/proprietary/bin/cbd:system/bin/cbd \
     vendor/samsung/chagallltetmo/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
 
 # Bluetooth firmware
