@@ -19,6 +19,3 @@ DEVICE_PACKAGE_OVERLAYS := vendor/samsung/n2awifi/overlay
 
 $(call inherit-product, vendor/samsung/n1awifi/n1awifi-vendor-blobs.mk)
 $(call inherit-product, vendor/samsung/exynos5420-common/exynos5420-common-vendor.mk)
-
-# Include landscape camera blobs
-$(call inherit-product, vendor/samsung/exynos5420-common/exynos5420-common-camera-land-blobs.mk)
