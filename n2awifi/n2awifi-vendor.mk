@@ -1,3 +1,4 @@
+
 # Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,3 +20,4 @@ DEVICE_PACKAGE_OVERLAYS := vendor/samsung/n2awifi/overlay
 
 $(call inherit-product-if-exists, vendor/samsung/n2awifi/n1awifi-vendor-blobs.mk)
 $(call inherit-product, vendor/samsung/nx-common/nx-common-vendor.mk)
+

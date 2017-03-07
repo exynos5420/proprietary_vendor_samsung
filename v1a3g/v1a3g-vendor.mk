@@ -20,3 +20,4 @@ DEVICE_PACKAGE_OVERLAYS := vendor/samsung/v1a3g/overlay
 
 $(call inherit-product, vendor/samsung/v1a3g/v1a3g-vendor-blobs.mk)
 $(call inherit-product, vendor/samsung/vx-common/vx-common-vendor.mk)
+

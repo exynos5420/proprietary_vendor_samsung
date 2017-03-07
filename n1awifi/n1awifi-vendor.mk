@@ -19,3 +19,4 @@ DEVICE_PACKAGE_OVERLAYS := vendor/samsung/n1awifi/overlay
 
 $(call inherit-product-if-exists, vendor/samsung/n1awifi/n1awifi-vendor-blobs.mk)
 $(call inherit-product, vendor/samsung/nx-common/nx-common-vendor.mk)
+
