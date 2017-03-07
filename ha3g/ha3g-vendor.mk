@@ -19,6 +19,3 @@ DEVICE_PACKAGE_OVERLAYS := vendor/samsung/ha3g/overlay
 
 $(call inherit-product, vendor/samsung/ha3g/ha3g-vendor-blobs.mk)
 $(call inherit-product, vendor/samsung/exynos5420-common/exynos5420-common-vendor.mk)
-
-# Include portrait camera blobs
-$(call inherit-product, vendor/samsung/exynos5420-common/exynos5420-common-camera-port-blobs.mk)
