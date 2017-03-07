@@ -19,6 +19,3 @@
 
 $(call inherit-product, vendor/samsung/nx-common/nx-common-vendor-blobs.mk)
 $(call inherit-product, vendor/samsung/exynos5420-common/exynos5420-common-vendor.mk)
-
-# Include landscape camera blobs
-$(call inherit-product, vendor/samsung/exynos5420-common/exynos5420-common-camera-land-blobs.mk)
