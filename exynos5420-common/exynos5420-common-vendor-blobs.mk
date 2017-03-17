@@ -66,13 +66,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin
 
-# Widevine From bullhead package version: bullhead-user 7.1.1 NPF10C 3347772 release-keys
+# Widevine N920C Nougat amr32 system dump
 PRODUCT_COPY_FILES += \
-    vendor/samsung/exynos5420-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/samsung/exynos5420-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/samsung/exynos5420-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-	vendor/samsung/exynos5420-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-	vendor/samsung/exynos5420-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
+    vendor/samsung/exynos5420-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
 # Noise Suppression Controller
 PRODUCT_COPY_FILES += \
