@@ -43,7 +43,7 @@ PRODUCT_COPY_FILES += \
 # Prebuilt Audio and Samsung sound effects. Because of the Yamaha chip I HATE THIS
 PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/hw/audio_policy.universal5420.so:system/lib/hw/audio_policy.universal5420.so \
-  vendor/samsung/ha3g/proprietary/lib/hw/audio.primary.universal5420.so:system/lib/hw/audio.primary.universal5420.so \
+  vendor/samsung/ha3g/proprietary/lib/hw/audio.primary.universal5420.so:system/lib/hw/audio.primary.vendor.universal5420.so \
   vendor/samsung/ha3g/proprietary/lib/libymc_codecctrl.so:system/lib/libymc_codecctrl.so \
   vendor/samsung/ha3g/proprietary/lib/libymc_config.so:system/lib/libymc_config.so \
   vendor/samsung/ha3g/proprietary/lib/libsamsungSoundbooster_ext.so:system/lib/libsamsungSoundbooster_ext.so \
