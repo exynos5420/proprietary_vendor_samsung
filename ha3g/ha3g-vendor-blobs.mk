@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
 
 # Prebuilt Audio and Samsung sound effects. Because of the Yamaha chip I HATE THIS
 PRODUCT_COPY_FILES += \
-  vendor/samsung/ha3g/proprietary/lib/hw/audio_policy.universal5420.so:system/lib/hw/audio_policy.universal5420.so \
   vendor/samsung/ha3g/proprietary/lib/hw/audio.primary.universal5420.so:system/lib/hw/audio.primary.vendor.universal5420.so \
   vendor/samsung/ha3g/proprietary/lib/libymc_codecctrl.so:system/lib/libymc_codecctrl.so \
   vendor/samsung/ha3g/proprietary/lib/libymc_config.so:system/lib/libymc_config.so \
@@ -57,7 +56,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
   vendor/samsung/ha3g/proprietary/lib/lib_Samsung_AudioZoom_v102.so:system/lib/lib_Samsung_AudioZoom_v102.so \
   vendor/samsung/ha3g/proprietary/lib/lib_SoundBooster_ver402.so:system/lib/lib_SoundBooster_ver402.so \
-  vendor/samsung/ha3g/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf
 
 # Yamaha data files
 PRODUCT_COPY_FILES += \
@@ -165,7 +163,3 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd \
   vendor/samsung/ha3g/proprietary/vendor/firmware/bcm2079xB5_firmware.ncd:system/vendor/firmware/bcm2079xB5_firmware.ncd \
   vendor/samsung/ha3g/proprietary/vendor/firmware/bcm2079xB5_pre_firmware.ncd:system/vendor/firmware/bcm2079xB5_pre_firmware.ncd
-
-# Randoms
-PRODUCT_COPY_FILES += \
-  vendor/samsung/ha3g/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so
