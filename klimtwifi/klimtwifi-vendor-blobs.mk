@@ -23,8 +23,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtwifi/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/klimtwifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/klimtwifi/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
-
-# Noise suppression
-PRODUCT_COPY_FILES += \
-    vendor/samsung/klimtwifi/proprietary/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_EARPIECE.txt:system/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
-    vendor/samsung/klimtwifi/proprietary/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
