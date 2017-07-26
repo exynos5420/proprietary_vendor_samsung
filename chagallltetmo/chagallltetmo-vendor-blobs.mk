@@ -14,6 +14,7 @@
 
 # RIL
 PRODUCT_COPY_FILES += \
+    vendor/samsung/chagallltetmo/proprietary/bin/cbd:system/bin/cbd \
     vendor/samsung/chagallltetmo/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
 
 # Bluetooth firmware
