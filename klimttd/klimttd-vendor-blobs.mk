@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimttd/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/klimttd/proprietary/bin/smdexe:system/bin/smdexe \
     vendor/samsung/klimttd/proprietary/lib/libcsd-client.so:system/bin/libcsd-client.so \
-    vendor/samsung/klimttd/proprietary/lib/libprotobuf-cpp-full.so:system/lib/libprotobuf-cpp-full.so \
     vendor/samsung/klimttd/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/klimttd/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/klimttd/proprietary/lib/librilutils.so:system/lib/librilutils.so \
