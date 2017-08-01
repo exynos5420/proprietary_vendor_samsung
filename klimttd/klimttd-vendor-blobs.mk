@@ -57,8 +57,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimttd/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/klimttd/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/klimttd/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/samsung/klimttd/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/samsung/klimttd/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
+    vendor/samsung/klimttd/proprietary/lib/libxml.so:system/lib/libxml.so \
+    vendor/samsung/klimttd/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/samsung/klimttd/proprietary/etc/Diag_audio.cfg:system/etc/Diag_audio.cfg \
     vendor/samsung/klimttd/proprietary/etc/Diag_gps.cfg:system/etc/Diag_gps.cfg \
     vendor/samsung/klimttd/proprietary/etc/Diag_volte.cfg:system/etc/Diag_volte.cfg \
