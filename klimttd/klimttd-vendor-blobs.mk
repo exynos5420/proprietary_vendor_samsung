@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimttd/proprietary/lib/libprotobuf-cpp-full.so:system/lib/libprotobuf-cpp-full.so \
     vendor/samsung/klimttd/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/klimttd/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/klimttd/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/klimttd/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/klimttd/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/klimttd/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
