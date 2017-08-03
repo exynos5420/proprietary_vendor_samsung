@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/samsung/chagallltetmo/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/chagallltetmo/proprietary/bin/gps.cer:system/bin/gps.cer \
     vendor/samsung/chagallltetmo/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
     vendor/samsung/chagallltetmo/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so
 
