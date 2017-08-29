@@ -88,3 +88,7 @@ PRODUCT_COPY_FILES += \
 # AVC Encoder. The OSS version does not work well
 PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so
+
+# stlport    
+PRODUCT_COPY_FILES += \
+    vendor/samsung/exynos5420-common/proprietary/lib/libstlport.so:system/lib/libstlport.so
