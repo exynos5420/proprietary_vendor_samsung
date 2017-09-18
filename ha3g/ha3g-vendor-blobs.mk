@@ -154,7 +154,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
   vendor/samsung/ha3g/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
   vendor/samsung/ha3g/proprietary/lib/hw/sensorhubs.universal5420.so:system/lib/hw/sensorhubs.universal5420.so \
-  vendor/samsung/ha3g/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so \
+  vendor/samsung/ha3g/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.vendor.universal5420.so \
   vendor/samsung/ha3g/proprietary/lib/libsensirion_h_3.so:system/lib/libsensirion_h_3.so
 
 # NFC Firmware
