@@ -16,7 +16,7 @@
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    vendor/samsung/klimtwifi/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so
+    vendor/samsung/klimtwifi/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.vendor.universal5420.so
 
 # GPS
 PRODUCT_COPY_FILES += \
