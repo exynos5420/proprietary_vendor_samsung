@@ -72,8 +72,8 @@ PRODUCT_COPY_FILES += \
 
 # Noise Suppression Controller
 PRODUCT_COPY_FILES += \
-    vendor/samsung/exynos5420-common/proprietary/vendor/lib/liblvverx_3.20.03.so:system/vendor/lib/liblvverx_3.20.03.so \
-    vendor/samsung/exynos5420-common/proprietary/vendor/lib/liblvvetx_3.20.03.so:system/vendor/lib/liblvvetx_3.20.03.so
+    vendor/samsung/exynos5420-common/proprietary/vendor/lib/liblvverx_3.25.00.so:system/vendor/lib/liblvverx.so \
+    vendor/samsung/exynos5420-common/proprietary/vendor/lib/liblvvetx_3.25.00.so:system/vendor/lib/liblvvetx.so
 
 # SRP Audio driver for Samsung Exynos firmware
 PRODUCT_COPY_FILES += \
