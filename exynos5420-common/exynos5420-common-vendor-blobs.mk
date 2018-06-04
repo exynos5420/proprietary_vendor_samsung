@@ -31,7 +31,10 @@ PRODUCT_COPY_FILES += \
 # Mobicore
 PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/bin/cs:system/bin/cs \
-    vendor/samsung/exynos5420-common/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
+    vendor/samsung/exynos5420-common/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin
+
+ifneq ($(TARGET_MOBICORE_VARIANT),tabs-common)
+PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:system/app/mcRegistry/00060308060501020000000000000000.tlbin \
     vendor/samsung/exynos5420-common/proprietary/app/mcRegistry/02010000080300030000000000000000.tlbin:system/app/mcRegistry/02010000080300030000000000000000.tlbin \
     vendor/samsung/exynos5420-common/proprietary/app/mcRegistry/07010000000000000000000000000000.tlbin:system/app/mcRegistry/07010000000000000000000000000000.tlbin \
@@ -57,6 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
     vendor/samsung/exynos5420-common/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
     vendor/samsung/exynos5420-common/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin
+endif
 
 # SSWAP
 PRODUCT_COPY_FILES += \
