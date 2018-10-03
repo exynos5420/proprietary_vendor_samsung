@@ -92,3 +92,8 @@ PRODUCT_COPY_FILES += \
 # AVC Encoder. The OSS version does not work well
 PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5420-common/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so
+
+# Samsung Device permission
+PRODUCT_COPY_FILES += \
+    vendor/samsung/exynos5420-common/proprietary/etc/permissions/com.samsung.device.xml:system/etc/permissions/com.samsung.device.xml \
+    vendor/samsung/exynos5420-common/proprietary/framework/com.samsung.device.jar:system/framework/com.samsung.device.jar
