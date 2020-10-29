@@ -53,7 +53,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    vendor/samsung/v2awifi/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so \
+    vendor/samsung/v2awifi/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.vendor.universal5420.so \
     vendor/samsung/v2awifi/proprietary/lib/libak09911c.so:system/lib/libak09911c.so
 
 # Samsung Exynos5 SoC series FIMC-IS driver firmware
