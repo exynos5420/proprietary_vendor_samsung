@@ -66,3 +66,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/v2awifi/proprietary/vendor/firmware/bcm4335_V0105.0541.hcd:system/vendor/firmware/bcm4335_V0105.0541.hcd \
     vendor/samsung/v2awifi/proprietary/vendor/firmware/bcm4350_V0301.0591.hcd:system/vendor/firmware/bcm4350_V0301.0591.hcd
+
+# libstlport
+PRODUCT_COPY_FILES += \
+    vendor/samsung/v2awifi/proprietary/lib/libstlport.so:system/lib/libstlport.so \
