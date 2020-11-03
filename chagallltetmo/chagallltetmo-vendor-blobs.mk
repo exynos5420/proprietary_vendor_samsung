@@ -30,4 +30,4 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    vendor/samsung/chagallltetmo/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so
+    vendor/samsung/chagallltetmo/proprietary/lib/sensors.universal5420.so:system/lib/sensors.universal5420.so

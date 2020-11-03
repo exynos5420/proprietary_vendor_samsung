@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    vendor/samsung/n1awifi/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so \
+    vendor/samsung/n1awifi/proprietary/lib/sensors.universal5420.so:system/lib/sensors.universal5420.so \
     vendor/samsung/n1awifi/proprietary/lib/libak8963c.so:system/lib/libak8963c.so
 
 # Bluetooth

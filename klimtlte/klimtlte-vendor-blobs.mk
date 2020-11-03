@@ -27,4 +27,4 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    vendor/samsung/klimtlte/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so
+    vendor/samsung/klimtlte/proprietary/lib/sensors.universal5420.so:system/lib/sensors.universal5420.so
