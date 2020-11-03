@@ -66,4 +66,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimttd/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     vendor/samsung/klimttd/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/klimttd/proprietary/etc/srm.bin:system/etc/srm.bin \
-    vendor/samsung/klimttd/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so
+    vendor/samsung/klimttd/proprietary/lib/sensors.universal5420.so:system/lib/sensors.universal5420.so
