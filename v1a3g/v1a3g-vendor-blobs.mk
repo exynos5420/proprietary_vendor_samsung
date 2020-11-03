@@ -58,7 +58,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    vendor/samsung/v1a3g/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so \
+    vendor/samsung/v1a3g/proprietary/lib/sensors.universal5420.so:system/lib/sensors.universal5420.so \
     vendor/samsung/v1a3g/proprietary/lib/libak8963c.so:system/lib/libak8963c.so
 
 # Samsung Exynos5 SoC series FIMC-IS driver firmware
