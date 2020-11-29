@@ -16,11 +16,11 @@
 
 # OpenGL - T6XX R7P0 GPU Driver
 PRODUCT_COPY_FILES += \
-    vendor/samsung/exynos5420-common/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so
+    vendor/samsung/exynos5420-common/proprietary/vendor/lib/egl/libGLES_mali.so:vendor/lib/egl/libGLES_mali.so
 
 # RS - T6XX R7P0 GPU Driver
 PRODUCT_COPY_FILES += \
-    vendor/samsung/exynos5420-common/proprietary/vendor/lib/libmalicore.bc:system/vendor/lib/libmalicore.bc
+    vendor/samsung/exynos5420-common/proprietary/vendor/lib/libmalicore.bc:vendor/lib/libmalicore.bc
 
 # Camera
 PRODUCT_COPY_FILES += \
