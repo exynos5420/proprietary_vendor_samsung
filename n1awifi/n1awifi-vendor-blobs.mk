@@ -38,10 +38,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/n1awifi/proprietary/vendor/firmware/bcm4335_V0105.0552.hcd:system/vendor/firmware/bcm4335_V0105.0552.hcd
 
-# libstlport
-PRODUCT_COPY_FILES += \
-    vendor/samsung/n1awifi/proprietary/lib/libstlport.so:system/lib/libstlport.so \
-
 # Samsung Exynos5 SoC series FIMC-IS driver firmware
 PRODUCT_COPY_FILES += \
     vendor/samsung/n1awifi/proprietary/vendor/firmware/fimc_is_fw2_IMX134.bin:system/vendor/firmware/fimc_is_fw2_IMX134.bin \
