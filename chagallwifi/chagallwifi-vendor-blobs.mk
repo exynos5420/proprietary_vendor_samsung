@@ -18,6 +18,11 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/chagallwifi/proprietary/vendor/firmware/bcm4350_V0301.0601.hcd:system/vendor/firmware/bcm4350_V0301.0601.hcd
 
+# AptX
+PRODUCT_COPY_FILES += \
+    vendor/samsung/chagallwifi/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX_encoder.so \
+    vendor/samsung/chagallwifi/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so
+
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/samsung/chagallwifi/proprietary/bin/gpsd:system/bin/gpsd \
@@ -26,4 +31,4 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    vendor/samsung/chagallwifi/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.vendor.universal5420.so
+    vendor/samsung/chagallwifi/proprietary/lib/sensors.universal5420.so:system/lib/sensors.universal5420.so
