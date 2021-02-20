@@ -16,6 +16,24 @@
       "revId": "037111d6327f0003dd2a6af792c3d916e70fdae9",
       "serverId": "c6d92919-bfe7-411c-9f64-004a8163e0f0",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aa02b120_8a48acbf",
+        "filename": "chagallwifi/chagallwifi-vendor-blobs.mk",
+        "patchSetId": 7
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000137
+      },
+      "writtenOn": "2021-02-20T12:14:10Z",
+      "side": 0,
+      "message": "This line is already merged in commit 7318. It need rebase.",
+      "parentUuid": "1dfa498b_e69f83c1",
+      "revId": "037111d6327f0003dd2a6af792c3d916e70fdae9",
+      "serverId": "c6d92919-bfe7-411c-9f64-004a8163e0f0",
+      "unresolved": true
     }
   ]
 }
