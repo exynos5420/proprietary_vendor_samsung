@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1dfa498b_e69f83c1",
+        "filename": "chagallwifi/chagallwifi-vendor-blobs.mk",
+        "patchSetId": 7
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2021-02-20T07:42:35Z",
+      "side": 0,
+      "message": "This line needs it own commit.",
+      "revId": "037111d6327f0003dd2a6af792c3d916e70fdae9",
+      "serverId": "c6d92919-bfe7-411c-9f64-004a8163e0f0",
+      "unresolved": true
+    }
+  ]
+}
